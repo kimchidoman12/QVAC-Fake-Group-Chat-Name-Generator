@@ -1,0 +1,25 @@
+{
+  "name": "qvac-fake-group-chat-name-generator",
+  "version": "1.0.0",
+  "description": "Describe your friend group and an on-device AI invents a fitting group chat name, with a deterministic chaos meter.",
+  "type": "module",
+  "main": "src/gui.js",
+  "scripts": {
+    "start": "node src/gui.js",
+    "gui": "node src/gui.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "fun",
+    "llm",
+    "offline-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
